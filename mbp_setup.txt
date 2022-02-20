@@ -31,3 +31,7 @@ Software
 
 	Safari
 		AdGuard for Safari
+
+	Python3
+		Should be installed by Xcode
+		pip3 install --user virtualenv
