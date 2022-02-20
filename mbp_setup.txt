@@ -1,0 +1,33 @@
+New MacBook Pro Setup
+
+System Preferences
+	Sound
+		Check ‘Show volume in menu bar’
+	Trackpad
+		Secondary click
+				Click in bottom right corner
+			Check ‘Tap to click’
+		Scroll & Zoom
+			Scroll direction: Inverse
+	Accessibility
+		Trackpad Options…
+			Check ‘Enable dragging’ and select ‘three finger drag’
+
+	Turn off mouse acceleration
+		defaults write .GlobalPreferences com.apple.mouse.scaling -1
+
+
+Software
+	Sublime Text
+		Setup running from command line:
+			mkdir $HOME/bin
+			export PATH=$HOME/bin:$PATH
+			ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' $HOME/bin/subl
+
+	Xcode Command Line Tools
+	
+	Git
+		https://kbroman.org/github_tutorial/pages/first_time.html
+
+	Safari
+		AdGuard for Safari
