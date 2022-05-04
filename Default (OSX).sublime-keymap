@@ -1,0 +1,9 @@
+[
+	{ "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+	{ "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },	
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	{ "keys": ["ctrl+equals"], "command": "jump_forward" },
+	{ "keys": ["super+k", "super+k"], "command": "focus_neighboring_group", "args": {"forward": true} },
+	{ "keys": ["super+k", "super+j"], "command": "focus_neighboring_group", "args": {"forward": false} },
+]
