@@ -5,7 +5,8 @@ System Preferences
 		Check ‘Show volume in menu bar’
 	Trackpad
 		Secondary click
-				Click in bottom right corner
+			Select 'Click in bottom right corner'
+		Tap to click
 			Check ‘Tap to click’
 		Scroll & Zoom
 			Scroll direction: Inverse
@@ -21,8 +22,9 @@ Software
 	Sublime Text
 		Setup running from command line:
 			mkdir $HOME/bin
-			export PATH=$HOME/bin:$PATH
 			ln -s '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' $HOME/bin/subl
+			echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+		Copy in preferences and keybinds from files
 
 	Xcode Command Line Tools
 	
