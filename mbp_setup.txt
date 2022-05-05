@@ -29,7 +29,11 @@ Software
 	Xcode Command Line Tools
 	
 	Git
-		https://kbroman.org/github_tutorial/pages/first_time.html
+		Setup ssh keys
+			https://kbroman.org/github_tutorial/pages/first_time.html
+		Setup git config
+			git config --global user.email "you@example.com"
+			git config --global user.name "Your Name"
 
 	Safari
 		AdGuard for Safari
