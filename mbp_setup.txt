@@ -46,3 +46,10 @@ Software
         pyenv global 3.10.xx
         pip install virtualenv
         pip install jupyterlab
+
+    Ruby
+        brew install chruby ruby-install
+        ruby-install ruby
+        echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+        echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+        echo "chruby ruby" >> ~/.zshrc
