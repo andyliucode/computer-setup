@@ -1,2 +1,2 @@
 # computer-setup
-Checklist for setting up a new computer
+Checklist for setting up a new Macbook Pro
